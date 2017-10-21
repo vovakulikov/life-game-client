@@ -55,3 +55,6 @@
 ## P.S.
 Весь код пишите в файле `./main/index.js`.<br/>
 Открывать в браузере файл `./index.html`.
+
+## P.P.S.
+Серверная часть игры [тут](https://github.com/NikitaRudenko/yandex-money-nodeschool-game-life-server).
