@@ -12,6 +12,10 @@
   },
   "author": "Nikita Rudenko",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NikitaRudenko/yandex-money-nodeschool-game-life-client.git"
+  },
   "dependencies": {
     "vue": "^2.5.2",
     "vue-material": "^0.7.5"
