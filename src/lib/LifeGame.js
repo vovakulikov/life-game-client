@@ -18,7 +18,6 @@ export default class LifeGame {
 		};
 		this._user = userName;
 		this.step = 0;
-		this.population = 0;
 		this._state = null;
 	}
 
@@ -51,8 +50,7 @@ export default class LifeGame {
 
 				if (isActive) {
 					const user = state[i][j].user;
-					// @todo fix tmp
-					this._domField.drawBlock(user ? user.color : '#000', domX, domY);
+					this._domField.drawBlock(user.color, domX, domY);
 				} else {
 					this._domField.delBlock(domX, domY);
 				}

@@ -14,7 +14,7 @@ export default class Canvas {
 		this._appendTo(appendTo);
 	}
 
-	initField(lineSize = 0.5, lineColor = '#e1edf9') {
+	initField(lineSize = 0.5, lineColor = '#000') {
 		const size = {
 			x: this._canvas.width / this._pointSize,
 			y: this._canvas.height / this._pointSize

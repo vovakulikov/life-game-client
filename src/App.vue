@@ -10,11 +10,7 @@
 			</md-button>
 		</md-toolbar>
 
-		<md-layout md-align="center" md-gutter="16">
-			<md-layout md-flex="50">
-				<div id="canvas"></div>
-			</md-layout>
-		</md-layout>
+		<div id="canvas"></div>
 
 		<md-dialog-prompt
 				:md-title="prompt.title"
@@ -58,3 +54,19 @@
 		}
 	}
 </script>
+
+<style src="vue-material/dist/vue-material.css"></style>
+<style>
+	#canvas {
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+		box-sizing: border-box;
+	}
+
+	#canvas > canvas {
+		margin: 20px auto 0;
+		box-sizing: border-box;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+	}
+</style>
