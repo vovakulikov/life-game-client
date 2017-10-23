@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
-var ExtractTextPlugin = require("extract-text-webpack-plugin")
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 // Naming and path settings
 let appName = 'app';

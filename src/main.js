@@ -25,9 +25,6 @@ window.App = {
 			this.onToken(token);
 		});
 	},
-	getToken() {
-		return app.$refs.app.userName;
-	},
 	onToken(token) {
 		throw new Error('Вы должны имплементировать метод onToken');
 	}
