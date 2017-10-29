@@ -103,7 +103,7 @@ class AppLogic {
 
 class Socket {
     constructor(handshakeToken) {
-        const url = `ws://ws.rudenko.tech/life/api/?token=${handshakeToken}`;
+        const url = `ws://localhost:3000/?token=${handshakeToken}`;
         this.socket = new WebSocket(url);
 
         this.addCommonHandler();
